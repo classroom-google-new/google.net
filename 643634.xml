@@ -6,8 +6,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- CSS dosyasını ekleyin -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/paigerodeghero/academicwebsite@897c910c65e6c68b04c44a6b6eba0b99d0f2f2cf/TemplateData/style.css" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/paigerodeghero/academicwebsite@897c910c65e6c68b04c44a6b6eba0b99d0f2f2cf/TemplateData/style.css" crossorigin="anonymous">
 
     <!-- <script src="js/adsdk.min_6955df2a.js"></script> -->
    <script type="text/javascript">
