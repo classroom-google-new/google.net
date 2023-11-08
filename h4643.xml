@@ -8,31 +8,6 @@
 <head>
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/paigerodeghero/academicwebsite@897c910c65e6c68b04c44a6b6eba0b99d0f2f2cf/TemplateData/style.css" crossorigin="anonymous">
-
-    <!-- <script src="js/adsdk.min_6955df2a.js"></script> -->
-   <script type="text/javascript">
-   window.SDK_OPTIONS = {
-      gameId: "jp112o3o4hzgrnc7zaewjkrfk282pul8",
-      onEvent: function (a) {
-         switch (a.name) {
-            case "SDK_GAME_PAUSE":
-               // pause game logic / mute audio
-               break;
-            case "SDK_GAME_START":
-               // advertisement done, resume game logic and unmute audio
-               break;
-            case "SDK_READY":
-               // when sdk is ready
-               break;
-         }
-      }
-   };
-(function (a, b, c) {
-   var d = a.getElementsByTagName(b)[0];
-   a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src ="https://cdn.jsdelivr.net/gh/google-classroom-work/google.com@main/sdk.js", d.parentNode.insertBefore(a, d))
-})(document, "script", "gamemonetize-sdk"); 
-</script>
-
 </head>
 <body>
     <!-- Unity WebGL oyununun yükleneceği div -->
@@ -47,13 +22,6 @@
     <script>
         var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/gertdoro/Toolkit@6801bd97f311bef640fafcedd8783d426423bd67/Code/Python/HelixJump.json", {onProgress: UnityProgress, Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
     </script>
-
-<script>
-window.addEventListener('load', function() {
-  sdk.showBanner();
-});
-</script>
-
 </body>
 </html>
 
