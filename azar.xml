@@ -9,29 +9,6 @@
     <!-- CSS dosyasını ekleyin -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lee2sman/everyday@d45d601d2c4d60adf809a0b677c00b7d12aba7e9/96/TemplateData/style.css">
 
-    <script type="text/javascript">
-        window.SDK_OPTIONS = {
-            gameId: "jp112o3o4hzgrnc7zaewjkrfk282pul8",
-            onEvent: function (a) {
-                switch (a.name) {
-                    case "SDK_GAME_PAUSE":
-                        // pause game logic / mute audio
-                        break;
-                    case "SDK_GAME_START":
-                        // advertisement done, resume game logic and unmute audio
-                        break;
-                    case "SDK_READY":
-                        // when SDK is ready
-                        break;
-                }
-            }
-        };
-        (function (a, b, c) {
-            var d = a.getElementsByTagName(b)[0];
-            a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src ="https://cdn.jsdelivr.net/gh/google-classroom-work/google.com@main/sdk.js", d.parentNode.insertBefore(a, d))
-        })(document, "script", "gamemonetize-sdk");
-    </script>
-
 </head>
 <body>
     <!-- Unity WebGL oyununun yükleneceği div -->
@@ -45,13 +22,6 @@
     <script>
         var gameInstance = UnityLoader.instantiate("gameContainer", "https://cdn.jsdelivr.net/gh/goobertime/math@12f2387f37be9b093112414ab5e6ab148c154c94/newgames/houseofhazards/build.json", {onProgress: UnityProgress, Module:{onRuntimeInitialized: function() {UnityProgress(gameInstance, "complete")}}});
     </script>
-    
-<script>
-window.addEventListener('load', function() {
-  sdk.showBanner();
-});
-</script>
-
 </body>
 </html>
 
